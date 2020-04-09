@@ -10,6 +10,13 @@ public class TestController
 	public String helloWorld()
 	{
 		
+		return "Hello  Rest Controller";
+	}
+	
+	@RequestMapping("/helloWorld")
+	public String helloWorld1()
+	{
+		
 		return "Hello World Rest Controller";
 	}
 
